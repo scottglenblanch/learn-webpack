@@ -2,4 +2,4 @@
 
 Commands I ran to setup
 
-npm install --save-dev css-loader
+```npm install --save-dev css-loader webpack webpack-cli ```
