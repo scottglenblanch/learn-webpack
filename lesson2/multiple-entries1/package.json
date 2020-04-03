@@ -5,9 +5,11 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "start": "npm run build && http-server ./dist"
   },
   "devDependencies": {
+    "http-server": "^0.12.1",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
   },
