@@ -19,6 +19,6 @@ module.exports = {
   },
   plugins: [
     new webpack.ProgressPlugin(),
-    new HtmlWebpackPlugin({template: './templates/index.zzz'})
+    new HtmlWebpackPlugin({template: './templates/index.html'})
   ]
 };
