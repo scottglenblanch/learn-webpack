@@ -1,0 +1,1 @@
+console.log('plugin example 2 called');

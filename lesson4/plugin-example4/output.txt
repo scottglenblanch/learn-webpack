@@ -1,0 +1,16 @@
+yarn run v1.22.4
+$ webpack
+compiler.options.output.filename bundle.js
+Hash: b79adebc6f9d4b6bc632
+Version: webpack 4.42.1
+Time: 241ms
+Built at: 04/03/2020 8:21:25 PM
+    Asset       Size  Chunks             Chunk Names
+bundle.js  968 bytes       0  [emitted]  main
+Entrypoint main = bundle.js
+[0] ./src/index.js 39 bytes {0} [built]
+
+WARNING in configuration
+The 'mode' option has not been set, webpack will fallback to 'production' for this value. Set 'mode' option to 'development' or 'production' to enable defaults for each environment.
+You can also set it to 'none' to disable any default behavior. Learn more: https://webpack.js.org/configuration/mode/
+Done in 0.85s.
