@@ -1,3 +1,5 @@
-String.prototype.reverse = function() {
-  return this.split('').reverse().join('');
+String.prototype.reverseString = function() {
+
+  return 'This reverse of \n\t' + this+ '\nis\n\t'
+      + this.split('').reverse().join('');
 }

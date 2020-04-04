@@ -1,15 +1,19 @@
 module.exports = function(source) {
-  const lineList = source.split('\n');
 
   const returnSource = `
-    (function() {
-      const lineList=${lineList}
+    globalPrintLines = function() {
+      const lineList=[${source
+        .split('\n')
+        .map(s => `'${s}'`)
+        .join(',')
+      }];
       
-      phraseList.forEach((phrase, i) => {
-        console.log('line ' + i, phrase)
-      })
       
-    })();
+      lineList.forEach((line, i) => {
+        console.log('line ' + i, line)
+      });
+      
+    };
   `
 
   return returnSource;

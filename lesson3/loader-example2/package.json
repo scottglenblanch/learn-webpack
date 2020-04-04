@@ -1,19 +1,18 @@
 {
-  "name": "webpack-demo",
+  "name": "loader-example1",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "export PORT=8000 && npm run build && http-server ./dist --port=${PORT}"
+    "start": "node ./dist/bundle.js"
+  },
+  "dependencies": {
+    "http-server": "^0.12.1"
   },
   "devDependencies": {
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
-  },
-  "dependencies": {
-    "http-server": "^0.12.1",
-    "lodash": "^4.17.15"
   }
 }

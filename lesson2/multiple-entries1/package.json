@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "npm run build && http-server ./dist"
+    "app1": "npm run build && node ./dist/app1.js",
+    "app2": "npm run build && node ./dist/app1.js"
   },
   "devDependencies": {
     "http-server": "^0.12.1",

@@ -1,5 +1,5 @@
 import '../shared/customPolyfills';
 
-const myString = 'this is the string for app1';
+const myString = 'APP 1 String';
 
-console.log(myString.reverse());
+console.log(myString.reverseString());

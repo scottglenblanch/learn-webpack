@@ -1,0 +1,48 @@
+Arguments: 
+  /Users/sblanch/.nvm/versions/node/v12.16.1/bin/node /Users/sblanch/.nvm/versions/node/v12.16.1/bin/yarn add raw-loader
+
+PATH: 
+  /Users/sblanch/.rbenv/shims:/Users/sblanch/.nvm/versions/node/v12.16.1/bin:/Users/sblanch/.jenv/shims:/Users/sblanch/.jenv/bin:/Users/sblanch/rms-mac/my-bash/my-bash-scripts/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/sblanch/.rbenv/shims:/Users/sblanch/.nvm/versions/node/v12.16.1/bin:/Users/sblanch/.jenv/shims:/Users/sblanch/.jenv/bin:/Users/sblanch/rms-mac/my-bash/my-bash-scripts/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/sblanch/sandbox/learn-webpack/lesson3/loader-example2/package.json: Unexpected token } in JSON at position 287
+      at JSON.parse (<anonymous>)
+      at /Users/sblanch/.nvm/versions/node/v12.16.1/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/sblanch/.nvm/versions/node/v12.16.1/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/sblanch/.nvm/versions/node/v12.16.1/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "loader-example1",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "webpack",
+      "start": "node ./dist/bundle.js"
+    },
+    "dependencies": {
+      "http-server": "^0.12.1",
+    },
+    "devDependencies": {
+      "webpack": "^4.42.1",
+      "webpack-cli": "^3.3.11"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
