@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "start": "export PORT=8007 && npm run build && http-server ./dist --port=${PORT}"
+    "start": "npm run build && node ./dist/index.js"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",

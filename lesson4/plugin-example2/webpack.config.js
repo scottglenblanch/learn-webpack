@@ -1,4 +1,4 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin'); //installed via npm
+const HelloWorldPlugin = require('./plugins/hello-world-plugin'); //installed via npm
 const webpack = require('webpack'); //to access built-in plugins
 const path = require('path');
 
@@ -19,6 +19,6 @@ module.exports = {
   },
   plugins: [
     new webpack.ProgressPlugin(),
-    new HtmlWebpackPlugin({template: './templates/index.zzz'})
+    new HelloWorldPlugin({ options: true })
   ]
 };
